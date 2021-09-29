@@ -31,6 +31,7 @@ u = unique(c(1, 1, 2, 3, 4))
 print(u)
 # union intersect setdiff(x, y) setequal
 print(c(1, 2) %in% u)  # in operation
+# level factor set
 
 # 向量也可以直接做算术运算
 # c(1, 2, 3) ^ 3
@@ -88,8 +89,27 @@ for (i in c(1, 2, 3)) {
 # 产生数据
 ss = seq(1, 10, 0.5)
 print(ss)
+rep(1, 10)  # rep 1 10 times
 print(sample(ss, 5, replace=FALSE, ))
 runif(10, 0, 1)
+
+print(which(x >= 5))
+
+# load data from files
+
+# rbind, cbind, df$new_name = vec
+
+# unlist
+
+# apply tapply sapply lapply
+
+m = matrix(c(1:12), nrow=4, ncol=3)
+apply(m, MARGIN=1, FUN=max)  # row wise
+# apply(m, MARGIN=2, FUN=max)  # column wise, dim, axis, but start from 1
+
+
+
+
 
 
 
