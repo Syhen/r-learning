@@ -1,0 +1,9 @@
+name,math,english,sport,chinese
+zhao,78,98,74,61
+qian,65,78,98,80
+sun,90,76,69,80
+li,53,71,66,61
+zhou,93,54,71,65
+wu,70,78,81,90
+zheng,56,60,71,56
+wang,73,81,56,90

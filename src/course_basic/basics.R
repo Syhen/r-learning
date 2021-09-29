@@ -102,10 +102,27 @@ print(which(x >= 5))
 # unlist
 
 # apply tapply sapply lapply
+# sapply 针对元素，会根据fun不同而不同
+# lapply 会根据fun不同而不同，返回list
 
 m = matrix(c(1:12), nrow=4, ncol=3)
 apply(m, MARGIN=1, FUN=max)  # row wise
 # apply(m, MARGIN=2, FUN=max)  # column wise, dim, axis, but start from 1
+
+print(subset(df, select=c(-b)))  # 选择df的非b列
+
+# tapply = groupby
+# R中的aggregate太难用了
+
+# sort & order
+# which %in% match
+
+
+
+
+
+
+
 
 
 
