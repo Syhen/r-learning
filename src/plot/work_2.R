@@ -1,0 +1,6 @@
+data = read.table("input/sin.txt")
+x = c(1:length(data$V1))
+plot(x, data$V1, lty="solid", col="red", type="l", ylim=c(-1.5, 1.5))
+lines(x, data$V2, col="blue", type="l")
+lines(x, data$V2 + 0.3, col="blue", type="l")
+abline(h=0)

@@ -26,3 +26,4 @@ print(better_aggregate(iris, by=list(iris$V5), FUN=mean))
 print(better_aggregate(iris$V1, by=list(iris$V5), FUN=mean))
 print(better_aggregate(iris, by=list(iris$V5), FUN=length))
 print(better_aggregate(iris$V5, by=list(iris$V5), FUN=length))
+
